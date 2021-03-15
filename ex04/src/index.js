@@ -7,4 +7,4 @@ function localScope() {
 localScope();
 
 
-module.exports = localScope;
+module.exports = localScope
