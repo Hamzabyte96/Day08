@@ -1,8 +1,11 @@
-function convertStrToInt(str) {
-    
-   
-    
+function convertToInt(str) {
+    var str = parseInt(str);
+    console.log(str);
+    return parseInt(str);
 }
-console.log(parseInt("44"))
-convertStrToInt(str);
-module.exports = convertStrToInt;
+
+convertToInt("44");
+convertToInt("44");
+convertToInt("27");
+convertToInt("JeffBezos");
+module.exports = convertToInt;
