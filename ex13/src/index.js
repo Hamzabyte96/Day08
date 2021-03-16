@@ -1,6 +1,6 @@
 function randomRangeNumber(minNumber, maxNumber) {
-
+    console.log (Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber);
 }
 
-randomRangeNumber(minNumber, maxNumber);
+randomRangeNumber(5, 10);
 module.exports = randomRangeNumber;
