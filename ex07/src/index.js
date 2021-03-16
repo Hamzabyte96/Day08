@@ -1,16 +1,19 @@
 var sum = 0;
 function addThree() {
-    sum = sum + 3;
+    var sum = 3;
+    console.log(sum);
 
 }
 
 function addFive() {
-    sum = sum + 5;
+    var sum = 5
+    console.log(sum);
+    
 
 } 
 
-addThree(3);
-addFive(5);
+addThree();
+addFive();
 
 module.exports = {
     addThree,
